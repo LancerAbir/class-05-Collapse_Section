@@ -1,0 +1,107 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+alignright {
+    float: right;
+    margin-left: 15px;
+}
+aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}    
+body {
+    font-size: 15px;
+    font-size: 15px;
+    color: #999;
+    line-height: 1.7;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.area_bg_01:after {
+    background-image: url(img/bg_01.jpg);
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.area_bg_01::after {
+    border-radius: 5px;
+    box-shadow: 0 0 20px #999;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 47%;
+}
+
+
+h2.contant_title {
+    color: #000000;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+h2.contant_title span {
+    color: #1ab4fc;
+}
+
+
+
+.style_faq .panel-default .panel-heading {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+}
+.style_faq .panel.panel-default {
+    border-radius: 0;
+    box-shadow: 0 0 0;
+    margin-bottom: 15px;
+    padding: 0;
+}
+.style_faq .panel-default > .panel-heading {
+    padding: 0;
+}
+.style_faq .panel .panel-heading h4 a {
+    display: block;
+    padding: 15px;
+    position: relative;
+}
+.style_faq .panel .panel-heading h4 a i.fa {
+    display: none;
+    float: right;
+    font-size: 139%;
+    line-height: 18px;
+}
+
+.style_faq .panel .panel-heading h4 a[aria-expanded="true"] i.fa.fa-minus{
+    display: block;
+}
+.style_faq .panel .panel-heading h4 a[aria-expanded="false"] i.fa.fa-plus{
+    display: block;
+}
+
+
+
+
